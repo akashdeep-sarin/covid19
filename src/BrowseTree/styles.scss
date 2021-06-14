@@ -1,0 +1,36 @@
+.browse-tree-container {
+    width: 100%;
+
+}
+
+.browse-tree {
+    margin: auto;
+    width: fit-content;
+    // display: inline;
+}
+
+.card {
+    border-radius: 15px;
+    margin: 10px;
+    width:18rem;
+    height:80vh;
+    display: inline-block;
+    background: #FBC6A4;
+
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.6);
+
+    &:hover {
+        background: #f0ae86;;
+    }
+}
+
+// .large-buttons {
+//     height: 70%;
+//     width: 45%;
+// }
+
+// .large-buttons {
+//     margin: 5vh;
+// }
