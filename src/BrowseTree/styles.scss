@@ -6,31 +6,28 @@
 .browse-tree {
     margin: auto;
     width: fit-content;
-    // display: inline;
 }
 
 .card {
     border-radius: 15px;
     margin: 10px;
-    width:18rem;
+    width:30vw;
     height:80vh;
     display: inline-block;
-    background: #FBC6A4;
+    background: rgb(153, 146, 114);
 
-    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.6);
-    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.6);
-    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.2);
 
     &:hover {
-        background: #f0ae86;;
+        background:  rgb(172, 165, 137);
+        -webkit-box-shadow: 0px 0px 25px 5px rgba(225,225,225,0.6);
+        -moz-box-shadow: 0px 0px 25px 5px rgba(225,225,225,0.6);
+        box-shadow: 0px 0px 25px 5px rgba(225,225,225,0.6);
     }
 }
 
-// .large-buttons {
-//     height: 70%;
-//     width: 45%;
-// }
-
-// .large-buttons {
-//     margin: 5vh;
-// }
+.card-image {
+    border-radius:  15px 15px 0px 0px;
+}

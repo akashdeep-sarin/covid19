@@ -10,12 +10,16 @@ const BrowseTree = () => {
 
   // const [state, setState] = useState(initialState);
   return (
-   <div className="browse-tree-container">
-     <div className="browse-tree">
-      <div className="card">abcded</div>
-      <div className="card">wxyz</div>
-     </div>
-   </div>
+    <div className="browse-tree-container">
+      <div className="browse-tree">
+        <div className="card">
+          <div className="card-image" style={{ backgroundSize:'contain', backgroundPosition: 'center', backgroundImage: "url(" + covidimage + ")", height:'40%' }}></div>
+        </div>
+        <div className="card">
+          <div className="card-image" style={{ backgroundImage: {covidimage}, height:'40%' }}></div>
+        </div>
+      </div>
+    </div>
   );
 };
 
