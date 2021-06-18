@@ -26,8 +26,8 @@ const BrowseTree = () => {
           />
           <Card
             image={covidimage}
-            heading={Text.LeftCard.Heading}
-            text={Text.LeftCard.Text}
+            heading={Text.RightCard.Heading}
+            text={Text.RightCard.Text}
             onClick={() => setState({ phase: 1, info: "exposure_site" })}
             width={35}
           />
